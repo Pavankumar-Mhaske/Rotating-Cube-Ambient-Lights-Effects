@@ -1,0 +1,326 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Poppins&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #050505;
+}
+
+.cube {
+  /* position: relative; */
+  position: absolute;
+  top: 30%; /* Adjust as needed */
+  left: 20%; /* Adjust as needed */
+  /* transform: translate(-50%, -50%); Center the cube */
+  /* width: 300px;
+  height: 300px; */
+  width: calc(5vw + 5vh);
+  height: calc(5vw + 5vh);
+  transform-style: preserve-3d;
+  transform: rotateX(-30deg);
+  animation: animate 8s linear infinite; /* Increase the animation duration */
+}
+
+@keyframes animate {
+  /* 0% {
+    transform: rotateX(-30deg) rotateY(0deg);
+  }
+  100% {
+    transform: rotateX(-30deg) rotateY(360deg);
+  } */
+  0% {
+    transform: rotateX(-30deg) rotateY(0deg);
+  }
+  5% {
+    transform: rotateX(-30deg) rotateY(18deg);
+  }
+  10% {
+    transform: rotateX(-30deg) rotateY(36deg);
+  }
+  15% {
+    transform: rotateX(-30deg) rotateY(54deg);
+  }
+  20% {
+    transform: rotateX(-30deg) rotateY(72deg);
+  }
+  25% {
+    transform: rotateX(-30deg) rotateY(90deg);
+  }
+  30% {
+    transform: rotateX(-30deg) rotateY(108deg);
+  }
+  35% {
+    transform: rotateX(-30deg) rotateY(126deg);
+  }
+  40% {
+    transform: rotateX(-30deg) rotateY(144deg);
+  }
+  45% {
+    transform: rotateX(-30deg) rotateY(162deg);
+  }
+  50% {
+    transform: rotateX(-30deg) rotateY(180deg);
+  }
+  55% {
+    transform: rotateX(-30deg) rotateY(198deg);
+  }
+  60% {
+    transform: rotateX(-30deg) rotateY(216deg);
+  }
+  65% {
+    transform: rotateX(-30deg) rotateY(234deg);
+  }
+  70% {
+    transform: rotateX(-30deg) rotateY(252deg);
+  }
+  75% {
+    transform: rotateX(-30deg) rotateY(270deg);
+  }
+  80% {
+    transform: rotateX(-30deg) rotateY(288deg);
+  }
+  85% {
+    transform: rotateX(-30deg) rotateY(306deg);
+  }
+  90% {
+    transform: rotateX(-30deg) rotateY(324deg);
+  }
+  95% {
+    transform: rotateX(-30deg) rotateY(342deg);
+  }
+  100% {
+    transform: rotateX(-30deg) rotateY(360deg);
+  }
+}
+
+.cube:hover {
+  animation-play-state: paused; /* Pause the animation on hover */
+}
+
+.cube div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+}
+
+.cube div span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(#151515, #00ec00);
+  transform: rotateY(calc(90deg * var(--i))) translateZ(calc(2.5vw + 2.5vh));
+  /* (300/2) = 150 ......... */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform-style: preserve-3d;
+}
+
+/* .cube div span h2 {
+  position: absolute;
+ 
+  font-size: 2rem;
+  color: #000;
+  
+  transform: translateZ(40px);
+  font-family: oswald;
+}
+
+.cube div span h2:nth-child(1) {
+  transform: translateZ(0) translateY(20px);
+  
+  color: rgba(0, 255, 0, 0.2);
+} */
+
+/* adding text on cube */
+.cube .top {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* width: calc(10vw + 10vh);
+  height: calc(10vw + 10vh); */
+  background: #222;
+  transform: rotateX(90deg) translateZ(calc(2.5vw + 2.5vh));
+}
+
+.cube .top::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  /* width: 300px;
+  height: 300px; */
+  width: 100%;
+  height: 100%;
+  background: #0f0;
+  /* transform: translateZ(-380px); */
+  transform: translateZ(calc(-9vh - 9vw));
+  /* transform: translateZ(-40vh); */
+  filter: blur(20px);
+  box-shadow: 
+  /* 0 0 120px rgba(0, 255, 0, 0.1),  */ 0 0 150px
+      rgba(0, 255, 0, 0.2),
+    /* 0 0 200px rgba(0, 255, 0, 0.3),  */ 0 0 200px rgba(0, 255, 0, 0.4),
+    /* 0 0 300px rgba(0, 255, 0, 0.5),  */ 0 0 300px rgba(0, 255, 0, 0.6),
+    /* 0 0 400px rgba(0, 255, 0, 0.7),  */ 0 0 400px rgba(0, 255, 0, 0.8),
+    /* 0 0 470px rgba(0, 255, 0, 0.9),  */ 0 0 500px rgba(0, 255, 0, 1);
+}
+
+/* for buttons glow on hover */
+/* html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background: #000;
+} */
+
+.cube .glow-on-hover {
+  /* width: 220px;
+  height: 50px; */
+  /* padding: ; */
+  width: 90%;
+  height: 30%;
+  border: none;
+  outline: none;
+  color: #fff;
+  background: #cccbcb;
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  border: 1px solid #fff;
+  border-radius: 8px;
+  /* Using calc for margin and padding */
+  /* margin: calc(1vh + 1vw); Adjust the values as needed */
+  padding-top: calc(1vh + 0.5vw); /* Adjust the values as needed */
+  padding-bottom: calc(1vh + 0.5vw); /* Adjust the values as needed */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cube .glow-on-hover:before {
+  content: "";
+  background: linear-gradient(
+    45deg,
+    #ff0000,
+    #ff7300,
+    #fffb00,
+    #48ff00,
+    #00ffd5,
+    #002bff,
+    #7a00ff,
+    #ff00c8,
+    #ff0000
+  );
+  position: absolute;
+  top: -4px;
+  left: -2px;
+  /* background-size: 400%; */ /* Increase this value to make the color effect more pronounced */
+  background-size: 1000%;
+  z-index: -1;
+  filter: blur(5px);
+  filter: blur(3px); /* Decrease the blur value to make the colors sharper */
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  animation: glowing 8s linear infinite;
+  /* animation: glowing 10s linear infinite; Adjust the animation duration as desired */
+  opacity: 0;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  border-radius: 10px;
+}
+
+.cube .glow-on-hover:active {
+  color: #000;
+}
+
+.cube .glow-on-hover:active:after {
+  background: transparent;
+}
+
+.cube .glow-on-hover:hover:before {
+  opacity: 1;
+}
+
+.cube .glow-on-hover:after {
+  z-index: -1;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #111;
+  left: 0;
+  top: 0;
+  border-radius: 10px;
+}
+
+@keyframes glowing {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 400% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+.cube .glow-on-hover:hover {
+  /* offset-x | offset-y | blur-radius | spread-radius | color */
+  box-shadow: 1px -20px 50px 50px rgba(0, 0, 0, 0.7);
+}
+.cube div span button {
+  position: absolute;
+  font-size: calc(-0.1rem + 1vw + 1vh);
+  color: #fff;
+  transform: translateZ(30px);
+  /* transform: translateZ(0px); */
+  font-family: Poppins, Oswald;
+  /* offset-x | offset-y | blur-radius | spread-radius | color */
+  box-shadow: 20px -20px 10px 2px rgba(0, 0, 0, 0.5);
+}
+
+.cube div span button:nth-child(1) {
+  transform: translateZ(0) translateY(20px);
+  /* color: rgba(0, 0, 0, 0.3); */
+  color: rgb(250, 250, 250);
+}
+
+/*  */
+.cube span:hover button:nth-child(1) {
+  display: none;
+}
+
+.cube span:hover button:nth-child(2) {
+  display: block;
+}
+
+.cube span button:nth-child(1) {
+  display: block;
+}
+
+.cube span button:nth-child(2) {
+  display: none;
+}
