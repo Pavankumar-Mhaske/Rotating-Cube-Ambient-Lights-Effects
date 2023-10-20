@@ -35,7 +35,7 @@ Contributions are always welcome!
 ![Screenshot (773)](https://github.com/Pavankumar-Mhaske/Rotating-Cube-Ambient-Lights-Effects/assets/104865937/322cfe8a-12f1-401d-beb0-aa2f24cb7a56)
 
 <p align="center">
-  <b> 🌴🎄🌳🌲 ⭐💖 - Rotating Cube (Clockwise rotation) - 💖⭐ 🌲🌳🎄🌴 </b>
+  <b> 🌴🎄🌳🌲 ⭐💖 - Rotating Cube (Clockwise rotation) button with glowing border - 💖⭐ 🌲🌳🎄🌴 </b>
 </p>
 
 ![Screenshot (771)](https://github.com/Pavankumar-Mhaske/Rotating-Cube-Ambient-Lights-Effects/assets/104865937/8f6b82b8-d9e1-47d3-8291-92b3825a9301)
