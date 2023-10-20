@@ -40,6 +40,10 @@ Contributions are always welcome!
 
 ![Screenshot (771)](https://github.com/Pavankumar-Mhaske/Rotating-Cube-Ambient-Lights-Effects/assets/104865937/8f6b82b8-d9e1-47d3-8291-92b3825a9301)
 
+<p align="center">
+  <b> 🌴🎄🌳🌲 ⭐💖 - Changing the color of the button on click - 💖⭐ 🌲🌳🎄🌴 </b>
+</p>
+
 ![Screenshot (774)](https://github.com/Pavankumar-Mhaske/Rotating-Cube-Ambient-Lights-Effects/assets/104865937/55ba5d1b-8741-4c07-936d-bb5323b29f33)
 
 ## Used By
