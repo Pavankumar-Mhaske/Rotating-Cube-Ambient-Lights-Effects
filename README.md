@@ -34,6 +34,10 @@ Contributions are always welcome!
 
 ![Screenshot (773)](https://github.com/Pavankumar-Mhaske/Rotating-Cube-Ambient-Lights-Effects/assets/104865937/322cfe8a-12f1-401d-beb0-aa2f24cb7a56)
 
+<p align="center">
+  <b> 🌴🎄🌳🌲 ⭐💖 - Rotating Cube (Clockwise rotation) - 💖⭐ 🌲🌳🎄🌴 </b>
+</p>
+
 ![Screenshot (771)](https://github.com/Pavankumar-Mhaske/Rotating-Cube-Ambient-Lights-Effects/assets/104865937/8f6b82b8-d9e1-47d3-8291-92b3825a9301)
 
 ![Screenshot (774)](https://github.com/Pavankumar-Mhaske/Rotating-Cube-Ambient-Lights-Effects/assets/104865937/55ba5d1b-8741-4c07-936d-bb5323b29f33)
