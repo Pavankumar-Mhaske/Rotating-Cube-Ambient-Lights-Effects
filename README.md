@@ -23,3 +23,6 @@ Contributions are always welcome!
 [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
 [tailwindCSS](https://tailwindcss.com/)
+
+
+[React-Icons](https://react-icons.github.io/react-icons)
