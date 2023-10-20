@@ -24,7 +24,12 @@ Contributions are always welcome!
 
 [tailwindCSS](https://tailwindcss.com/)
 
-
 [React-Icons](https://react-icons.github.io/react-icons)
 
 ## 📸 Screenshots 📷🎥
+
+## Used By
+
+This project is used by the following companies:
+
+- SmaDuleX
