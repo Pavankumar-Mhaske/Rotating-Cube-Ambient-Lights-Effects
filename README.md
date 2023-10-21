@@ -46,10 +46,17 @@ Contributions are always welcome!
 
 ![Screenshot (774)](https://github.com/Pavankumar-Mhaske/Rotating-Cube-Ambient-Lights-Effects/assets/104865937/55ba5d1b-8741-4c07-936d-bb5323b29f33)
 
+<p align="center">
+  <b> 🌴🎄🌳🌲 ⭐💖 - Rotating Cube - Ambient Light Effects(Responsive) - 💖⭐ 🌲🌳🎄🌴 </b>
+</p>
+
 ![Screenshot (775)](https://github.com/Pavankumar-Mhaske/Rotating-Cube-Ambient-Lights-Effects/assets/104865937/7d999cc5-97ae-4624-82e3-117bbbed70ac)
 
-![Screenshot (776)](https://github.com/Pavankumar-Mhaske/Rotating-Cube-Ambient-Lights-Effects/assets/104865937/e97c9798-6f47-42f5-930f-5976f1c01e5e)
+<p align="center">
+  <b> 🌴🎄🌳🌲 ⭐💖 -Rotating Cube - Ambient Light Effects(Responsive) - 💖⭐ 🌲🌳🎄🌴 </b>
+</p>
 
+![Screenshot (776)](https://github.com/Pavankumar-Mhaske/Rotating-Cube-Ambient-Lights-Effects/assets/104865937/e97c9798-6f47-42f5-930f-5976f1c01e5e)
 
 ## Used By
 
